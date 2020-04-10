@@ -35,4 +35,5 @@ service: serverless-inventory-app
 ## To deploy an application run the following commands:
 
 `npm install`
+
 `sls deploy -v`
