@@ -7,14 +7,14 @@ service: serverless-inventory-app
 
 #Endpoints:
 
-  - GET - [apiEndpoint]/categories <br>
-  - POST - [apiEndpoint]/categories <br>
-  - PATCH - [apiEndpoint]/categories/{categoryId} <br>
-  - DELETE - [apiEndpoint]/categories/{categoryId} <br>
-  - GET - [apiEndpoint]/categories/{categoryId}/products <br>
-  - POST - [apiEndpoint]/categories/{categoryId}/products <br>
-  - PATCH - [apiEndpoint]/categories/{categoryId}/products/{productId} <br>
-  - DELETE - [apiEndpoint]/categories/{categoryId}/products/{productId} <br>
+  - GET - [apiEndpoint]/categories 
+  - POST - [apiEndpoint]/categories 
+  - PATCH - [apiEndpoint]/categories/{categoryId} 
+  - DELETE - [apiEndpoint]/categories/{categoryId}
+  - GET - [apiEndpoint]/categories/{categoryId}/products 
+  - POST - [apiEndpoint]/categories/{categoryId}/products 
+  - PATCH - [apiEndpoint]/categories/{categoryId}/products/{productId} 
+  - DELETE - [apiEndpoint]/categories/{categoryId}/products/{productId}
   - GET - [apiEndpoint]products
 
 #Functions:
